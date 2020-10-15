@@ -1,0 +1,21 @@
+{
+  "name": "webpack-zero-config",
+  "version": "1.0.0",
+  "description": "Out of the box, webpack won't require you to use a  configuration file. However, it will assume the entry  point of your project is `src/index.js` and will output the  result in `dist/main.js` minified and optimized for production.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start:dev": "webpack-dev-server --mode development --content-base dist/ --open --hot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}

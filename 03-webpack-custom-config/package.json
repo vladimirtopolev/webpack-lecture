@@ -1,0 +1,13 @@
+{
+  "name": "02-webpack-custom-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --watch",
+    "start:dev": "webpack-dev-server --mode development --content-base dist/ --open --hot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
